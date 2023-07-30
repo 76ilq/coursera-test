@@ -1,7 +1,108 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Assignement Solution for module 2</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 10px;
+        }
+
+        p {
+
+            height: 30px;
+            text-align: right;
+
+        }
+
+        .box {
+            height: 200px;
+            border-width: 2px;
+            border-color: black;
+            border-style: solid;
+        }
+
+        section {
+            clear: left;
+        }
+
+        #divin {
+            height: 40px;
+
+        }
+
+        .pnew {
+
+            width: 90px;
+            height: 30px;
+            text-align: center;
+            float: right;
+            border-color: black;
+            border-style: solid;
+            border-width: 2px;
+        }
+
+        @media(min-width:992px) {
+            #box1,#box2,#box3 {
+                width: 30%;
+                float: left;
+            }
+
+        }
+
+        @media (max-width: 991px) {
+            #box1,#box2 {
+                width: 47%;
+                float:left;
+            }
+            #box3{
+                width: 96.5%;
+                float: left;
+            }
+        }
+
+        @media (max-width: 767px) {
+            #box1,#box2,#box3 {
+                width: 96%;
+                float: left;
+            }
+
+        }
+    </style>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <h1 style="text-align: center;">Our Menue</h1>
+
+    <div class="container">
+
+        <div class="box" id="box1">
+            <div id="divin">
+                <p class="pnew" style="background-color: darksalmon;">CHECKEN</p>
+            </div> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate
+            perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam
+            incidunt soluta expedita.
+        </div>
+        <div class="box" id="box2">
+            <div id="divin">
+                <p class="pnew" style="background-color: indianred;">BEEF</p>
+            </div>consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam
+            reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus
+            tempora alias minima laborum, provident!
+        </div>
+        <div class="box" id="box3">
+            <div id="divin">
+                <p class="pnew" style="background-color: khaki;">SUSHI</p>
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quod dolorum nesciunt, possimus eos
+            harum atque aliquam magni odit nulla inventore in reprehenderit quo perspiciatis laborum, cum quaerat
+            numquam deleniti.
+        </div>
+    </div>
+
+
 </body>
+
 </html>
